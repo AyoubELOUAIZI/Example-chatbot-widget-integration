@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
             chatbotWidget.style.display = 'block';
             //my chatbot website to create
             //You should put your website chatbot link her
-            chatbotIframe.src = 'http://mywebsitechatbot/';
+            chatbotIframe.src = 'http://localhost:3000/';
             chatbotToggle.style.backgroundImage = 'url("https://cdn-icons-png.flaticon.com/512/5501/5501853.png")';
             // chatbotWidget.style.transform = 'translateX(-410px)';
             animateWidget(10);
